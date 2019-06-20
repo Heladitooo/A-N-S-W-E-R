@@ -1,0 +1,116 @@
+html
+{
+  font-family: system-ui;
+
+}
+
+p
+{
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#Pregunta, #Ganador
+{
+    display: none;
+    margin: 0;
+}
+
+.animacion
+{
+  display: grid;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  animation-duration: 1s;
+}
+
+@keyframes blue {
+  0%{
+    background-color: inherit;
+  }
+
+  10%{
+    background-color: blue;
+
+  }
+
+  50%
+  {
+    background-color: inherit;
+
+  }
+}
+
+@keyframes red{
+  0%{
+    background-color: inherit;
+  }
+
+  10%{
+    background-color: red;
+
+  }
+
+  50%
+  {
+    background-color: inherit;
+
+  }
+}
+
+#Pregunta
+{
+  font-size: 121%;
+  text-align: center;
+}
+
+#Ganador
+{
+  font-size: 259%;
+}
+
+.hero
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 339%;
+    width: 100vw;
+    height: 100vh;
+    position: static;
+    z-index: 2;
+    border-color: blue;
+}
+
+.todo
+{
+  width: 100vw;
+  height: 100vh;
+}
+
+.todo img
+{
+  width: 14%;
+     height: 10%;
+     position: absolute;
+     z-index: 2;
+     bottom: 0;
+     left: 43%;
+}
+body
+{
+  margin: 0;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+}
